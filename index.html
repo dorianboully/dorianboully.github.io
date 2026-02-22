@@ -14,6 +14,7 @@
       --accent: #8b3a2a;
       --accent-soft: #c4745f;
       --border: #ddd8d0;
+      --muted: #a09890;
       --card-bg: #ffffff;
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -22,7 +23,7 @@
       background: var(--cream);
       color: var(--ink);
       font-family: 'EB Garamond', Georgia, serif;
-      font-size: 18px;
+      font-size: 19px;
       line-height: 1.7;
     }
     .container { max-width: 760px; margin: 0 auto; padding: 0 2rem; }
@@ -84,14 +85,14 @@
     .project-item:last-child { border-bottom: none; }
     .project-year {
       font-family: 'DM Mono', monospace; font-size: 0.72rem;
-      color: var(--border); letter-spacing: 0.04em;
+      color: var(--muted); letter-spacing: 0.04em;
       padding-top: 0.3rem; text-align: right;
     }
     .project-title { font-size: 1.1rem; font-weight: 500; margin-bottom: 0.3rem; }
     .project-desc { font-size: 0.95rem; color: var(--ink-light); font-style: italic; margin-bottom: 0.8rem; }
     .project-no-notes {
       font-family: 'DM Mono', monospace; font-size: 0.7rem;
-      letter-spacing: 0.04em; color: var(--border);
+      letter-spacing: 0.04em; color: var(--muted);
       font-style: normal;
     }
     .project-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
@@ -117,7 +118,7 @@
     .stage-block .stage-desc { font-size: 0.98rem; color: var(--ink-light); font-style: italic; }
     .contact-text { font-size: 1.05rem; color: var(--ink-light); margin-bottom: 1.5rem; }
     footer { padding: 2.5rem 0; text-align: center; }
-    footer p { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--border); letter-spacing: 0.06em; }
+    footer p { font-family: 'DM Mono', monospace; font-size: 0.72rem; color: var(--muted); letter-spacing: 0.06em; }
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(16px); }
       to   { opacity: 1; transform: translateY(0); }
